@@ -9,65 +9,52 @@ const questions = [
         type: 'input',
         name: 'title',
         message: 'What is the name of your application?',
-        default: 'test',
     },
     {
         type: 'input',
         name: 'name',
         message: 'What is your name?',
-        default: 'test',
-
     },
     {
         type: 'input',
         name: 'gitHub',
-        message: 'What is your git hub user name?',
-        default: 'test',
-
+        message: 'What is your Gitub user name?',
     },
     {
         type: 'input',
         name: 'contact',
-        message: 'email address to contact with questions?',
-        default: 'test',
+        message: 'What is your email address?',
     },
     {
         type: 'input',
         name: 'description',
-        message: 'What does the project do?',
-        default: 'test',
-
+        message: 'What does this project do?',
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'How does someone install this?',
-        default: 'test',
+        message: 'How does someone install this project?',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'How should someone go about using the project?',
-        default: 'test',
+        message: 'Directions for using this project?',
     },
     {
         type: 'list',
         name: 'license',
-        message: 'Do you have a license fot this project?',
+        message: 'Do you have a license for this project?',
         choices: [ "Apache_License_2.0", "MIT_License", "Other", "None" ],
-
     },
     {
         type: 'input',
         name: 'contribute',
-        message: 'Do you allow other people to contribute?',
-        default: 'test',
+        message: 'Do you allow other people to contribute? If so, anything they should know?',
     },
     {
         type: 'input',
         name: 'tests',
         message: 'Does this project have any built in tests?',
-        default: 'test',
     }
 ];
 

@@ -1,9 +1,9 @@
-# test
-  ![License Badge](https://img.shields.io/static/v1?label=License&message=Other&color=blue)
+# Read me generator
+  ![License Badge](https://img.shields.io/static/v1?label=License&message=MIT_License&color=blue)
   
-  Name: test
+  Name: Brian O'Leary
 
-  GitHub user name: test
+  GitHub user name: boleary1
     
   ## Table of contents:  
   * [description](#description)
@@ -14,23 +14,23 @@
   * [Questions](#questions)
   
   ## Description:
-  test
+  Formats and generates a read me file from the terminal.
 
   ## Installation:
-  test
+  Clone and download the repository.
 
   ## Usage:
-  test
+  Open the file in the terminal type npm install, and then npm start and the questioner will begin.  
 
   ## license:
-  Other
+  MIT_License
   
   ## Contributing:
-  test
+  Yes, clone the repository make your edits and then create a push request to be reviewed.  
 
   ## Testing:
-  test
+  No.
 
   ## Questions:
-  Contact test with any questions at test
+  Contact Brian O'Leary with any questions at oleary.brian1@gmail.com
 

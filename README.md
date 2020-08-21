@@ -1,5 +1,41 @@
-# Homework-9-NodeJS
-Read me generator
+# Read me generator
+  ![License Badge](https://img.shields.io/static/v1?label=License&message=MIT_License&color=blue)
+  
+  Name: Brian O'Leary
+
+  GitHub user name: boleary1
+  [Youtube link](https://youtu.be/JrXG0CLTBeE)
+![screen shot](Capture.JPG "Screen shot")    
+  ## Table of contents:  
+  * [description](#description)
+  * [Installation](#Installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Testing](#testing)
+  * [Questions](#questions)
+  
+  ## Description:
+  Formats and generates a read me file from the terminal.
+
+  ## Installation:
+  Clone and download the repository.
+
+  ## Usage:
+  Open the file in the terminal type npm install, and then npm start and the questioner will begin.  
+
+  ## license:
+  MIT_License
+  
+  ## Contributing:
+  Yes, clone the repository make your edits and then create a push request to be reviewed.  
+
+  ## Testing:
+  No.
+
+  ## Questions:
+  Contact Brian O'Leary with any questions at oleary.brian1@gmail.com
+
+
 
 
 ## Original description below:
@@ -112,34 +148,3 @@ You are required to submit the following:
 * A sample README.md file for a project repository generated using your application.
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-# Brian
-### **Name:** Brian
-
-### **GitHub user name:** Brian
-
-# Application
-### **Name:** Brian O'Leary
-
-### **GitHub user name:** boleary1
-
-# app
-### **Name:** Brian
-
-### **GitHub user name:** boleary
-
-## **Description:** 
-drjgkhfdgjhd dfjkghdfnbkjdfhbn dfkjvhdfjkvhdfnv dfbvhdfbkjhfdbfd d flbkhjdbkhdfvdfh  dflhdfkvdfjbkldfjb  dflkhjdfkbjdfk dfklhdfkjbjdfbkldfj dfikjdfijdfbdlkj dfiobjdfbldjb 
-
-# test
-  ### **Name:  **   test
-  ### **GitHub user name:  ** test
-  ## **Description:**   works
-  ## **Table of contents:  ** test
-
-# test
-  ### **Name:  **   test
-  ### **GitHub user name:  ** 
-  ## **Description:**   
-  ## **Table of contents:  ** test
-
