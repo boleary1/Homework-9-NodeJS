@@ -51,10 +51,11 @@ const questions = [
         default: 'test',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
         message: 'Do you have a license fot this project?',
-        default: 'test',
+        choices: [ "Apache_License_2.0", "MIT_License", "Other", "None" ],
+
     },
     {
         type: 'input',

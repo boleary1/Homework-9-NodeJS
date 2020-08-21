@@ -1,8 +1,10 @@
-# Read me generator
-  Name: Brian O'Leary
+# test
+  ![License Badge](https://img.shields.io/static/v1?label=License&message=Other&color=blue)
+  
+  Name: test
 
-  GitHub user name: boleary1
-
+  GitHub user name: test
+    
   ## Table of contents:  
   * [description](#description)
   * [Installation](#Installation)
@@ -12,27 +14,23 @@
   * [Questions](#questions)
   
   ## Description:
-  Generates a read me mark down file.
+  test
 
   ## Installation:
-  clone this repository to your drive, open and run the index file from your terminal.  
+  test
 
   ## Usage:
-  Run the program from the terminal, and answer all of the questions.
+  test
 
   ## license:
-  Yes, the MIT license.  
+  Other
   
   ## Contributing:
-  undefined
+  test
 
   ## Testing:
-  no
+  test
 
   ## Questions:
-  Contact Brian O'Leary with any questions at oleary.brian1@gmail.com
-
-
-
-
+  Contact test with any questions at test
 
