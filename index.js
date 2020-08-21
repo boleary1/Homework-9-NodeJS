@@ -71,9 +71,6 @@ const questions = [
     }
 ];
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
 
 // function to initialize program
 function init() {
@@ -88,66 +85,6 @@ function init() {
                 console.log("Success")
             }
         })
-        //repo header
-        // fs.appendFileSync("README.md", ("# " + response.title) + '\n', function (err) {
-
-        //     if (err) {
-        //         console.log(err)
-        //     }
-        //     else {
-        //         console.log("Success")
-        //     }
-
-        // })
-        // //adds a line to refereance the developer
-        // fs.appendFileSync("README.md", ("### **Name:  ** " + response.name + '\n') + '\n', function (err) {
-
-        //     if (err) {
-        //         console.log(err)
-        //     }
-        //     else {
-        //         console.log("Success")
-        //     }
-
-        // })
-
-
-
-        // //adds a line to refereance the developer
-        // fs.appendFileSync("README.md", ("### **GitHub user name:  ** " + response.gitHub + '\n') + '\n', function (err) {
-
-        //     if (err) {
-        //         console.log(err)
-        //     }
-        //     else {
-        //         console.log("Success")
-        //     }
-
-        // })
-
-        // //adds a description
-        // fs.appendFileSync("README.md", ('\n' + "## **Description:** " + '\n' + response.description + '\n') + '\n', function (err) {
-
-        //     if (err) {
-        //         console.log(err)
-        //     }
-        //     else {
-        //         console.log("Success")
-        //     }
-
-        // })
-
-        // //adds table of contents
-        // fs.appendFileSync("README.md", ("## **Table of contents:  ** " + response.name + '\n') + '\n', function (err) {
-
-        //     if (err) {
-        //         console.log(err)
-        //     }
-        //     else {
-        //         console.log("Success")
-        //     }
-
-        // })
     })
 }
 
