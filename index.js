@@ -22,21 +22,45 @@ const questions = [
         type: 'input',
         name: 'gitHub',
         message: 'What is your git hub user name?',
+        default: 'test',
+
+    },
+    {
+        type: 'input',
+        name: 'contact',
+        message: 'email address to contact with questions?',
+        default: 'test',
     },
     {
         type: 'input',
         name: 'description',
         message: 'What does the project do?',
+        default: 'test',
+
     },
     {
         type: 'input',
-        name: 'instructions',
+        name: 'installation',
+        message: 'How does someone install this?',
+        default: 'test',
+    },
+    {
+        type: 'input',
+        name: 'usage',
         message: 'How should someone go about using the project?',
+        default: 'test',
     },
     {
         type: 'input',
-        name: 'description',
-        message: 'What does the project do?',
+        name: 'license',
+        message: 'Do you have a license fot this project?',
+        default: 'test',
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Does this project have any built in tests?',
+        default: 'test',
     }
 ];
 
