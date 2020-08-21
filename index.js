@@ -1,21 +1,42 @@
 const fs = require("fs");
-// const axios = require("axios"); not needed 
 const inquirer = require("inquirer");
-// const generateMarkdown = require("./utils/generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown.js")
 
 
 // array of questions for user
 const questions = [
-    // What is tha name of the app?
     {
         type: 'input',
-        name: 'repositoryName',
+        name: 'title',
         message: 'What is the name of your application?',
+        default: 'test',
     },
     {
         type: 'input',
-        name: 'gitHubUserName',
+        name: 'name',
+        message: 'What is your name?',
+        default: 'test',
+
+    },
+    {
+        type: 'input',
+        name: 'gitHub',
         message: 'What is your git hub user name?',
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What does the project do?',
+    },
+    {
+        type: 'input',
+        name: 'instructions',
+        message: 'How should someone go about using the project?',
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What does the project do?',
     }
 ];
 
@@ -27,9 +48,7 @@ function writeToFile(fileName, data) {
 function init() {
     console.log("Inside the init function")
     inquirer.prompt(questions).then((response) => {
-
-        // this will Create the first line and main header for the repo (that is what the "# " is for) using the users resonse to RepoName
-        fs.appendFileSync("README.md", ("# " + response.repositoryName) + '\n', function (err) {
+        fs.writeFileSync("exampleREADME.md", generateMarkdown(response) , function (err) {
 
             if (err) {
                 console.log(err)
@@ -37,20 +56,67 @@ function init() {
             else {
                 console.log("Success")
             }
-
         })
-        // this will create the 2nd line of readme discribing the application was developed by the users reponse to githubname 
-        fs.appendFileSync("README.md", ("This application was developed by: " + response.gitHubUserName + '\n') + '\n', function (err) {
+        //repo header
+        // fs.appendFileSync("README.md", ("# " + response.title) + '\n', function (err) {
 
-            if (err) {
-                console.log(err)
-            }
-            else {
-                console.log("Success")
-            }
+        //     if (err) {
+        //         console.log(err)
+        //     }
+        //     else {
+        //         console.log("Success")
+        //     }
 
-        })
+        // })
+        // //adds a line to refereance the developer
+        // fs.appendFileSync("README.md", ("### **Name:  ** " + response.name + '\n') + '\n', function (err) {
 
+        //     if (err) {
+        //         console.log(err)
+        //     }
+        //     else {
+        //         console.log("Success")
+        //     }
+
+        // })
+
+
+
+        // //adds a line to refereance the developer
+        // fs.appendFileSync("README.md", ("### **GitHub user name:  ** " + response.gitHub + '\n') + '\n', function (err) {
+
+        //     if (err) {
+        //         console.log(err)
+        //     }
+        //     else {
+        //         console.log("Success")
+        //     }
+
+        // })
+
+        // //adds a description
+        // fs.appendFileSync("README.md", ('\n' + "## **Description:** " + '\n' + response.description + '\n') + '\n', function (err) {
+
+        //     if (err) {
+        //         console.log(err)
+        //     }
+        //     else {
+        //         console.log("Success")
+        //     }
+
+        // })
+
+        // //adds table of contents
+        // fs.appendFileSync("README.md", ("## **Table of contents:  ** " + response.name + '\n') + '\n', function (err) {
+
+        //     if (err) {
+        //         console.log(err)
+        //     }
+        //     else {
+        //         console.log("Success")
+        //     }
+
+        // })
     })
 }
 
