@@ -58,6 +58,12 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'contribute',
+        message: 'Do you allow other people to contribute?',
+        default: 'test',
+    },
+    {
+        type: 'input',
         name: 'tests',
         message: 'Does this project have any built in tests?',
         default: 'test',

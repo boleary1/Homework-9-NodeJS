@@ -1,9 +1,7 @@
-# test
-  ### Name:    
-  sdfvdf
+# Read me generator
+  Name: Brian O'Leary
 
-  ### GitHub user name:  
-  dfgvdfv
+  GitHub user name: boleary1
 
   ## Table of contents:  
   * [description](#description)
@@ -13,26 +11,26 @@
   * [Testing](#testing)
   * [Questions](#questions)
   
-  
-  
-  
   ## Description:
-  dfvdfvdf
+  Generates a read me mark down file.
 
   ## Installation:
-  dfvdfvd
+  clone this repository to your drive, open and run the index file from your terminal.  
 
   ## Usage:
-  dfvdfvd
+  Run the program from the terminal, and answer all of the questions.
 
   ## license:
-  dvdfvdfv
+  Yes, the MIT license.  
+  
+  ## Contributing:
+  undefined
 
   ## Testing:
-  dfvdfv
-  
+  no
+
   ## Questions:
-  Contact sdfvdf with any questions at dfvdfv
+  Contact Brian O'Leary with any questions at oleary.brian1@gmail.com
 
 
 
